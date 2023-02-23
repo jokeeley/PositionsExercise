@@ -75,7 +75,45 @@ section {
 }
 
 /* START BELOW THIS LINE */
+/* 1 */
+/* position: static; */
 
-div.static {
-    position: static;
+/* 2 */
+#power {
+    position: relative;
+    right: 225px;
+}
+
+/* 3 */
+#space {
+    position: relative;
+    top: 115px;
+    right: 115px;
+}
+
+/* 4 */
+#soul {
+    position: absolute;
+    right: 0px;
+    bottom: 0px
+}
+
+/* 5 */
+#reality {
+    position: absolute;
+    right: 0px;
+    bottom: 150px;
+}
+
+/* 6 */
+#mind {
+    position: fixed;
+    right: 0px;
+}
+
+/* 7 */
+#time {
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }
