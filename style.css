@@ -114,6 +114,16 @@ section {
 /* 7 */
 #time {
     position: fixed;
-    top: 0px;
-    right: 0px;
+    top: 0;
+    right: 0;
 }
+
+/* 8 */
+h1 {
+    position: sticky;
+    top: 1px;
+    /* 9 */
+    z-index: 2;
+}
+
+
